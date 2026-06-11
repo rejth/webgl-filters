@@ -9,6 +9,8 @@ Each filter is represented as shader input and each enabled effect becomes a rea
 - how convolution kernels create blur, sharpen, emboss, Sobel, Prewitt, and edge-detection effects;
 - how framebuffer rendering lets multiple effects compose without reading pixels back to the CPU.
 
+<img width="1169" height="922" alt="image" src="https://github.com/user-attachments/assets/4a03a327-22ec-4497-8389-408e128e6c75" />
+
 ## Install
 
 ```sh
