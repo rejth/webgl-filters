@@ -1,0 +1,30 @@
+{
+  "name": "webgl-filters",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "pnpm typecheck && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "oxlint src && biome lint .",
+    "format": "biome format --write .",
+    "check": "pnpm typecheck && oxlint src && biome check .",
+    "prepare": "lefthook install"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.4.4",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite-plugin-glsl": "^1.3.0",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^2.2.0",
+    "@biomejs/biome": "^2.3.7",
+    "oxlint": "^1.30.0",
+    "lefthook": "^1.13.6",
+    "vite": "^6.0.3"
+  }
+}
